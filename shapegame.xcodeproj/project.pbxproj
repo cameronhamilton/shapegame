@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E907D711E37B9CB00A14BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E907D701E37B9CB00A14BCA /* AppDelegate.swift */; };
+		7E907D731E37B9CB00A14BCA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7E907D721E37B9CB00A14BCA /* GameScene.sks */; };
+		7E907D751E37B9CB00A14BCA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7E907D741E37B9CB00A14BCA /* Actions.sks */; };
+		7E907D771E37B9CB00A14BCA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E907D761E37B9CB00A14BCA /* GameScene.swift */; };
+		7E907D791E37B9CB00A14BCA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E907D781E37B9CB00A14BCA /* GameViewController.swift */; };
+		7E907D7C1E37B9CB00A14BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E907D7A1E37B9CB00A14BCA /* Main.storyboard */; };
+		7E907D7E1E37B9CB00A14BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E907D7D1E37B9CB00A14BCA /* Assets.xcassets */; };
+		7E907D811E37B9CB00A14BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E907D7F1E37B9CB00A14BCA /* LaunchScreen.storyboard */; };
+		7E907D8C1E37B9CB00A14BCA /* shapegameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E907D8B1E37B9CB00A14BCA /* shapegameTests.swift */; };
+		7E907D971E37B9CB00A14BCA /* shapegameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E907D961E37B9CB00A14BCA /* shapegameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E907D881E37B9CB00A14BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E907D651E37B9CA00A14BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E907D6C1E37B9CA00A14BCA;
+			remoteInfo = shapegame;
+		};
+		7E907D931E37B9CB00A14BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E907D651E37B9CA00A14BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E907D6C1E37B9CA00A14BCA;
+			remoteInfo = shapegame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E907D6D1E37B9CB00A14BCA /* shapegame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shapegame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E907D701E37B9CB00A14BCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E907D721E37B9CB00A14BCA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7E907D741E37B9CB00A14BCA /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		7E907D761E37B9CB00A14BCA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7E907D781E37B9CB00A14BCA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7E907D7B1E37B9CB00A14BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E907D7D1E37B9CB00A14BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E907D801E37B9CB00A14BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E907D821E37B9CB00A14BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E907D871E37B9CB00A14BCA /* shapegameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shapegameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E907D8B1E37B9CB00A14BCA /* shapegameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapegameTests.swift; sourceTree = "<group>"; };
+		7E907D8D1E37B9CB00A14BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E907D921E37B9CB00A14BCA /* shapegameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shapegameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E907D961E37B9CB00A14BCA /* shapegameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapegameUITests.swift; sourceTree = "<group>"; };
+		7E907D981E37B9CB00A14BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E907D6A1E37B9CA00A14BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E907D841E37B9CB00A14BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E907D8F1E37B9CB00A14BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E907D641E37B9CA00A14BCA = {
+			isa = PBXGroup;
+			children = (
+				7E907D6F1E37B9CB00A14BCA /* shapegame */,
+				7E907D8A1E37B9CB00A14BCA /* shapegameTests */,
+				7E907D951E37B9CB00A14BCA /* shapegameUITests */,
+				7E907D6E1E37B9CB00A14BCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E907D6E1E37B9CB00A14BCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E907D6D1E37B9CB00A14BCA /* shapegame.app */,
+				7E907D871E37B9CB00A14BCA /* shapegameTests.xctest */,
+				7E907D921E37B9CB00A14BCA /* shapegameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E907D6F1E37B9CB00A14BCA /* shapegame */ = {
+			isa = PBXGroup;
+			children = (
+				7E907D701E37B9CB00A14BCA /* AppDelegate.swift */,
+				7E907D721E37B9CB00A14BCA /* GameScene.sks */,
+				7E907D741E37B9CB00A14BCA /* Actions.sks */,
+				7E907D761E37B9CB00A14BCA /* GameScene.swift */,
+				7E907D781E37B9CB00A14BCA /* GameViewController.swift */,
+				7E907D7A1E37B9CB00A14BCA /* Main.storyboard */,
+				7E907D7D1E37B9CB00A14BCA /* Assets.xcassets */,
+				7E907D7F1E37B9CB00A14BCA /* LaunchScreen.storyboard */,
+				7E907D821E37B9CB00A14BCA /* Info.plist */,
+			);
+			path = shapegame;
+			sourceTree = "<group>";
+		};
+		7E907D8A1E37B9CB00A14BCA /* shapegameTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E907D8B1E37B9CB00A14BCA /* shapegameTests.swift */,
+				7E907D8D1E37B9CB00A14BCA /* Info.plist */,
+			);
+			path = shapegameTests;
+			sourceTree = "<group>";
+		};
+		7E907D951E37B9CB00A14BCA /* shapegameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E907D961E37B9CB00A14BCA /* shapegameUITests.swift */,
+				7E907D981E37B9CB00A14BCA /* Info.plist */,
+			);
+			path = shapegameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E907D6C1E37B9CA00A14BCA /* shapegame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E907D9B1E37B9CB00A14BCA /* Build configuration list for PBXNativeTarget "shapegame" */;
+			buildPhases = (
+				7E907D691E37B9CA00A14BCA /* Sources */,
+				7E907D6A1E37B9CA00A14BCA /* Frameworks */,
+				7E907D6B1E37B9CA00A14BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shapegame;
+			productName = shapegame;
+			productReference = 7E907D6D1E37B9CB00A14BCA /* shapegame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E907D861E37B9CB00A14BCA /* shapegameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E907D9E1E37B9CB00A14BCA /* Build configuration list for PBXNativeTarget "shapegameTests" */;
+			buildPhases = (
+				7E907D831E37B9CB00A14BCA /* Sources */,
+				7E907D841E37B9CB00A14BCA /* Frameworks */,
+				7E907D851E37B9CB00A14BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E907D891E37B9CB00A14BCA /* PBXTargetDependency */,
+			);
+			name = shapegameTests;
+			productName = shapegameTests;
+			productReference = 7E907D871E37B9CB00A14BCA /* shapegameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E907D911E37B9CB00A14BCA /* shapegameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E907DA11E37B9CB00A14BCA /* Build configuration list for PBXNativeTarget "shapegameUITests" */;
+			buildPhases = (
+				7E907D8E1E37B9CB00A14BCA /* Sources */,
+				7E907D8F1E37B9CB00A14BCA /* Frameworks */,
+				7E907D901E37B9CB00A14BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E907D941E37B9CB00A14BCA /* PBXTargetDependency */,
+			);
+			name = shapegameUITests;
+			productName = shapegameUITests;
+			productReference = 7E907D921E37B9CB00A14BCA /* shapegameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E907D651E37B9CA00A14BCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Cameron;
+				TargetAttributes = {
+					7E907D6C1E37B9CA00A14BCA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7E907D861E37B9CB00A14BCA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E907D6C1E37B9CA00A14BCA;
+					};
+					7E907D911E37B9CB00A14BCA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E907D6C1E37B9CA00A14BCA;
+					};
+				};
+			};
+			buildConfigurationList = 7E907D681E37B9CA00A14BCA /* Build configuration list for PBXProject "shapegame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E907D641E37B9CA00A14BCA;
+			productRefGroup = 7E907D6E1E37B9CB00A14BCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E907D6C1E37B9CA00A14BCA /* shapegame */,
+				7E907D861E37B9CB00A14BCA /* shapegameTests */,
+				7E907D911E37B9CB00A14BCA /* shapegameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E907D6B1E37B9CA00A14BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E907D7C1E37B9CB00A14BCA /* Main.storyboard in Resources */,
+				7E907D731E37B9CB00A14BCA /* GameScene.sks in Resources */,
+				7E907D7E1E37B9CB00A14BCA /* Assets.xcassets in Resources */,
+				7E907D811E37B9CB00A14BCA /* LaunchScreen.storyboard in Resources */,
+				7E907D751E37B9CB00A14BCA /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E907D851E37B9CB00A14BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E907D901E37B9CB00A14BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E907D691E37B9CA00A14BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E907D771E37B9CB00A14BCA /* GameScene.swift in Sources */,
+				7E907D791E37B9CB00A14BCA /* GameViewController.swift in Sources */,
+				7E907D711E37B9CB00A14BCA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E907D831E37B9CB00A14BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E907D8C1E37B9CB00A14BCA /* shapegameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E907D8E1E37B9CB00A14BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E907D971E37B9CB00A14BCA /* shapegameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E907D891E37B9CB00A14BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E907D6C1E37B9CA00A14BCA /* shapegame */;
+			targetProxy = 7E907D881E37B9CB00A14BCA /* PBXContainerItemProxy */;
+		};
+		7E907D941E37B9CB00A14BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E907D6C1E37B9CA00A14BCA /* shapegame */;
+			targetProxy = 7E907D931E37B9CB00A14BCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E907D7A1E37B9CB00A14BCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E907D7B1E37B9CB00A14BCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E907D7F1E37B9CB00A14BCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E907D801E37B9CB00A14BCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E907D991E37B9CB00A14BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E907D9A1E37B9CB00A14BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E907D9C1E37B9CB00A14BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shapegame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iridium.shapegame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7E907D9D1E37B9CB00A14BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shapegame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iridium.shapegame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7E907D9F1E37B9CB00A14BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = shapegameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iridium.shapegameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shapegame.app/shapegame";
+			};
+			name = Debug;
+		};
+		7E907DA01E37B9CB00A14BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = shapegameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iridium.shapegameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shapegame.app/shapegame";
+			};
+			name = Release;
+		};
+		7E907DA21E37B9CB00A14BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = shapegameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iridium.shapegameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = shapegame;
+			};
+			name = Debug;
+		};
+		7E907DA31E37B9CB00A14BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = shapegameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iridium.shapegameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = shapegame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E907D681E37B9CA00A14BCA /* Build configuration list for PBXProject "shapegame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E907D991E37B9CB00A14BCA /* Debug */,
+				7E907D9A1E37B9CB00A14BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E907D9B1E37B9CB00A14BCA /* Build configuration list for PBXNativeTarget "shapegame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E907D9C1E37B9CB00A14BCA /* Debug */,
+				7E907D9D1E37B9CB00A14BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E907D9E1E37B9CB00A14BCA /* Build configuration list for PBXNativeTarget "shapegameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E907D9F1E37B9CB00A14BCA /* Debug */,
+				7E907DA01E37B9CB00A14BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E907DA11E37B9CB00A14BCA /* Build configuration list for PBXNativeTarget "shapegameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E907DA21E37B9CB00A14BCA /* Debug */,
+				7E907DA31E37B9CB00A14BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E907D651E37B9CA00A14BCA /* Project object */;
+}
