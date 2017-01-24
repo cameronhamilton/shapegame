@@ -35,6 +35,13 @@ class GameScene: SKScene {
                                               SKAction.fadeOut(withDuration: 0.5),
                                               SKAction.removeFromParent()]))
         }
+        
+        
+        let shape = SKShapeNode()
+        shape.path = UIBezierPath(roundedRect: CGRect(x: -128, y: -128, width: 100, height: 100), cornerRadius: 64).cgPath
+        shape.position = CGPoint(x: frame.midX, y: frame.midY)
+        shape.fillColor = UIColor.red
+        addChild(shape)
     }
     
     

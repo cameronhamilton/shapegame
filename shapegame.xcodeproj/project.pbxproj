@@ -202,6 +202,7 @@
 				TargetAttributes = {
 					7E907D6C1E37B9CA00A14BCA = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E5YB93F8KE;
 						ProvisioningStyle = Automatic;
 					};
 					7E907D861E37B9CB00A14BCA = {
@@ -424,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E5YB93F8KE;
 				INFOPLIST_FILE = shapegame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iridium.shapegame;
@@ -436,6 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E5YB93F8KE;
 				INFOPLIST_FILE = shapegame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iridium.shapegame;
